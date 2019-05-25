@@ -23,3 +23,9 @@ In order to copy / paste these settings, the following dependencies are required
   - Some sensible Vim settings to get you going.
 - [vim-javascript](https://github.com/pangloss/vim-javascript)
   - Nice syntax highlighting for JavaScript.
+
+## Screenshots
+
+![vim-javascript](./vim-javascript.png)
+
+---
