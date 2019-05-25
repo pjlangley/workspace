@@ -17,3 +17,9 @@ In order to copy / paste these settings, the following dependencies are required
   - I'm a fan of the [slant font](http://www.figlet.org/fontdb_example.cgi?font=slant.flf).
   - For example, `mkdir ~/.figlet && cd $_ && curl -O http://www.figlet.org/fonts/slant.flf`
   - Now you can reference that font, just as seen in my `.bash_profile`.
+- [pathogen.vim](https://github.com/tpope/vim-pathogen)
+  - Pathogen provides a Vim plugin manager.
+- [vim-sensible](https://github.com/tpope/vim-sensible)
+  - Some sensible Vim settings to get you going.
+- [vim-javascript](https://github.com/pangloss/vim-javascript)
+  - Nice syntax highlighting for JavaScript.
