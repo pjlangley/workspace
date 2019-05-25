@@ -1,3 +1,5 @@
+![Figlet splash](./figlet-splash.png)
+
 # Workspace
 
 My best attempt at portable workspace settings when working across Linux & macOS devices.
