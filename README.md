@@ -1,4 +1,4 @@
-![Figlet splash](./figlet-splash.png)
+![Figlet splash](./screenshots/figlet-splash.png)
 
 # Workspace
 
@@ -26,6 +26,11 @@ In order to copy / paste these settings, the following dependencies are required
 
 ## Screenshots
 
-![vim-javascript](./vim-javascript.png)
+The Vim JavaScript plugin applying some pleasant highlighting to a JS file:
 
+![vim-javascript](./screenshots/vim-javascript.png)
+
+Some human readable touches and colour output to my `ls` alias:
+
+![ls alias](./screenshots/ls-alias.png)
 ---
