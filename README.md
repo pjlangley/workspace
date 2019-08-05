@@ -34,14 +34,15 @@ In order to copy / paste these settings, the following dependencies are required
     - This has almost been my one-stop-shop for tmux plugins.
     - Follow the installation instructions there.
     - Once installed, you can add your plugins to `~/.tmux.conf` then `prefix` + `I` to install,
-      as per official instructions. Take a look at my own [tmux config](./.tmux.conf) for examples.
+      as per official instructions. Take a look at my own [tmux config](./.tmux.conf#L2-L6) for examples.
   - [Tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect)
     - > Restore tmux environment after system restart.
     - This is probably the staple tmux plugin for me.
-    - Follow their official install instructions (add to `~/.tmux.conf` then `prefix` + `I`).
+    - Follow their official installation instructions (add to `~/.tmux.conf` then `prefix` + `I`).
   - [Tmux continuum](https://github.com/tmux-plugins/tmux-continuum)
     - This extends from Tmux Resurrect by auto saving your environment.
       A must have plugin for me.
+    - Follow their official installation instructions (add to `~/.tmux.conf` then `prefix` + `I`).
   - [Tmux Yank](https://github.com/tmux-plugins/tmux-yank)
     - > Copy to the system clipboard in tmux.
     - This is one of those things you expect _just to work_, but one doesn't simply copy/paste without
@@ -53,14 +54,15 @@ In order to copy / paste these settings, the following dependencies are required
     - > Plugin that highlights when you press tmux prefix key.
     - This is a nice to have, but it's useful to see a visual indication of when the prefix key has
       been activated.
+    - Follow their official installation instructions (add to `~/.tmux.conf` then `prefix` + `I`).
   - [Tmux Sensible](https://github.com/tmux-plugins/tmux-sensible)
     - Consider installing this. For the record, I haven't. My approach was to copy/paste the settings I
       specifically wanted. Although, you should probably install this unless you're an exceptionally
       fussy ~~control freak~~ person like me 😁
   - [Tmux GitBar](https://github.com/arl/tmux-gitbar)
-    - Outside of the comforts of TPM, this plugin must be installed directory (at the time of writing).
-    - Follow the official installation instructions. It involves cloning the repo and added a line to
-      your `~/tmux.conf`, [like so](./.tmux.conf#L9-L10).
+    - Outside of the comforts of TPM, this plugin must be installed directly (at the time of writing).
+    - Follow the official installation instructions. It involves cloning the repo and adding a line to
+      your `~/tmux.conf`, [like so](./.tmux.conf#L10).
 
 ## Samples
 
