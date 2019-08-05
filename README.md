@@ -18,13 +18,16 @@ In order to copy / paste these settings, the following dependencies are required
   - For example, `mkdir ~/.figlet && cd $_ && curl -O http://www.figlet.org/fonts/slant.flf`
   - Now you can reference that font, just as seen in my `.bash_profile`.
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
-  - Pathogen provides a Vim plugin manager.
-- [vim-sensible](https://github.com/tpope/vim-sensible)
-  - Some sensible Vim settings to get you going.
-- [vim-javascript](https://github.com/pangloss/vim-javascript)
-  - Nice syntax highlighting for JavaScript.
+  - Pathogen provides a Vim plugin manager. Thereafter, install the following:
+  - [vim-sensible](https://github.com/tpope/vim-sensible)
+    - Some sensible Vim settings to get you going.
+  - [vim-javascript](https://github.com/pangloss/vim-javascript)
+    - Nice syntax highlighting for JavaScript.
+- `tree` command
+  - Provides a readable directory output - really useful for documentation etc.
+  - For macOS, you can use [brew](https://formulae.brew.sh/formula/tree) to install it.
 
-## Screenshots
+## Samples
 
 The Vim JavaScript plugin applying some pleasant highlighting to a JS file:
 
@@ -33,4 +36,18 @@ The Vim JavaScript plugin applying some pleasant highlighting to a JS file:
 Some human readable touches and colour output to my `ls` alias:
 
 ![ls alias](./screenshots/ls-alias.png)
+
+Example of `tree` output:
+
+```
+$ tree
+.
+├── README.md
+└── screenshots
+    ├── figlet-splash.png
+    ├── ls-alias.png
+    └── vim-javascript.png
+
+1 directory, 4 files
+```
 ---
