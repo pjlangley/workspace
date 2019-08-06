@@ -63,9 +63,6 @@ In order to copy / paste these settings, the following dependencies are required
     - Outside of the comforts of TPM, this plugin must be installed directly (at the time of writing).
     - Follow the official installation instructions. It involves cloning the repo and adding a line to
       your `~/tmux.conf`, [like so](./.tmux.conf#L10).
-- [McFly](https://github.com/cantino/mcfly)
-  - A smart and UI focused replacement for searching/executing commands in bash history (`ctrl-r`).
-  - Follow the official installation instructions.
 
 ## Samples
 
