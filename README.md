@@ -1,5 +1,3 @@
-![Figlet splash](./screenshots/figlet-splash.png)
-
 # Workspace
 
 My best attempt at portable workspace settings when working across Linux & macOS devices.
@@ -12,11 +10,9 @@ conditions from the CLI.
 
 In order to copy / paste these settings, the following dependencies are required:
 
-- [Figlet](http://www.figlet.org/)
-  - For macOS, you can use [brew](https://formulae.brew.sh/formula/figlet) to install it.
-  - I'm a fan of the [slant font](http://www.figlet.org/fontdb_example.cgi?font=slant.flf).
-  - For example, `mkdir ~/.figlet && cd $_ && curl -O http://www.figlet.org/fonts/slant.flf`
-  - Now you can reference that font, just as seen in my `.bash_profile`.
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/)
+  - Follow the installation instructions.
+  - This obviously assumes zsh usage; my current preference.
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
   - Pathogen provides a Vim plugin manager. Thereafter, install the following:
   - [vim-sensible](https://github.com/tpope/vim-sensible)
@@ -81,7 +77,6 @@ $ tree
 .
 ├── README.md
 └── screenshots
-    ├── figlet-splash.png
     ├── ls-alias.png
     └── vim-javascript.png
 
