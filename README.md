@@ -1,6 +1,6 @@
 # Workspace
 
-My best attempt at portable workspace settings when working across Linux & macOS devices.
+My best attempt at portable workspace settings when working on macOS devices.
 
 Whenever practical, my preference is to work from the command line. These workspace settings
 will reflect that goal of mine. I like to explore productivity benefits and pleasant working
@@ -11,7 +11,7 @@ conditions from the CLI.
 In order to copy / paste these settings, the following dependencies are required:
 
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/)
-  - Follow the installation instructions.
+  - Follow their installation instructions.
   - This obviously assumes zsh usage; my current preference.
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
   - Pathogen provides a Vim plugin manager. Thereafter, install the following:
@@ -59,6 +59,47 @@ In order to copy / paste these settings, the following dependencies are required
     - Outside of the comforts of TPM, this plugin must be installed directly (at the time of writing).
     - Follow the official installation instructions. It involves cloning the repo and adding a line to
       your `~/tmux.conf`, [like so](./.tmux.conf#L10).
+
+## Git
+
+Set a global Git user name and email address as standard:
+
+```
+git config user.email pjlangley@users.noreply.github.com
+git config user.name pjlangley
+```
+
+_Override on a project basis as necessary._
+
+---
+
+Generate a new SSH key for GitHub access; GH has a [guide](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) on this.
+
+E.g.:
+
+```
+$ ssh-keygen -t rsa -b 4096 -C "pjlangley@users.noreply.github.com"
+$ ... enter a passphrase for better security ...
+$ ... save to ~/.ssh/id_rsa_pjlangley_github ...
+```
+
+Setup an ssh host entry for the above (see .ssh/config in this repo).
+
+Start the ssh agent:
+
+```
+$ eval "$(ssh-agent -s)"
+```
+
+Add the ssh key into the agent:
+
+```
+$ ssh-add -K ~/.ssh/id_rsa_pjlangley_github
+```
+
+Now you won't need to enter your passphrase during every remote Git command you make.
+
+Finish by adding your public ssh key to your account; GH has a [guide](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) on this.
 
 ## Samples
 
