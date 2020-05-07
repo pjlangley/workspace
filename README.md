@@ -85,16 +85,16 @@ $ ... save to ~/.ssh/id_rsa_pjlangley_github ...
 
 Setup an ssh host entry for the above (see .ssh/config in this repo).
 
-Start the ssh agent:
-
-```
-$ eval "$(ssh-agent -s)"
-```
-
 Add the ssh key into the agent:
 
 ```
 $ ssh-add -K ~/.ssh/id_rsa_pjlangley_github
+```
+
+If the ssh agent isn't running, start the ssh agent:
+
+```
+$ eval "$(ssh-agent -s)"
 ```
 
 Now you won't need to enter your passphrase during every remote Git command you make.
@@ -106,10 +106,6 @@ Finish by adding your public ssh key to your account; GH has a [guide](https://h
 The Vim JavaScript plugin applying some pleasant highlighting to a JS file:
 
 ![vim-javascript](./screenshots/vim-javascript.png)
-
-Some human readable touches and colour output to my `ls` alias:
-
-![ls alias](./screenshots/ls-alias.png)
 
 Example of `tree` output:
 
