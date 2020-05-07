@@ -18,7 +18,7 @@ In order to copy / paste these settings, the following dependencies are required
   - Follow their installation instructions.
   - See `.vim/autoload/.gitkeep` for anything autoloaded; just this plugin manager for now.
   - See `.vim/plugged/.gitkeep` for installed plugins.
-  - I used [Vim Awesome](https://vimawesome.com/) to browse Vim plugins.
+  - I use [Vim Awesome](https://vimawesome.com/) to browse Vim plugins.
 - `tree` command
   - Provides a readable directory output - really useful for documentation etc.
   - For macOS, you can use [brew](https://formulae.brew.sh/formula/tree) to install it.
