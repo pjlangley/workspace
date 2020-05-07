@@ -69,7 +69,7 @@ git config user.email pjlangley@users.noreply.github.com
 git config user.name pjlangley
 ```
 
-_Override on a project basis as necessary._
+_Override on a project by project basis as necessary._
 
 ---
 
