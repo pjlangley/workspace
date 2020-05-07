@@ -1,2 +1,4 @@
-execute pathogen#infect()
+call plug#begin()
+Plug 'tpope/vim-sensible'
+call plug#end()
 set number

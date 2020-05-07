@@ -14,12 +14,11 @@ In order to copy / paste these settings, the following dependencies are required
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/)
   - Follow their installation instructions.
   - This obviously assumes zsh shell usage; my current preference.
-- [pathogen.vim](https://github.com/tpope/vim-pathogen)
-  - Pathogen provides a Vim plugin manager. Thereafter, install the following:
-  - [vim-sensible](https://github.com/tpope/vim-sensible)
-    - Some sensible Vim settings to get you going.
-  - [vim-javascript](https://github.com/pangloss/vim-javascript)
-    - Nice syntax highlighting for JavaScript.
+- [Vim Plug](https://github.com/junegunn/vim-plug)
+  - Follow their installation instructions.
+  - See `.vim/autoload/.gitkeep` for anything autoloaded; just this plugin manager for now.
+  - See `.vim/plugged/.gitkeep` for installed plugins.
+  - I used [Vim Awesome](https://vimawesome.com/) to browse Vim plugins.
 - `tree` command
   - Provides a readable directory output - really useful for documentation etc.
   - For macOS, you can use [brew](https://formulae.brew.sh/formula/tree) to install it.
