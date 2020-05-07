@@ -83,7 +83,7 @@ $ ... enter a passphrase for better security ...
 $ ... save to ~/.ssh/id_rsa_pjlangley_github ...
 ```
 
-Setup an ssh host entry for the above (see .ssh/config in this repo).
+**Setup an ssh host entry for the above (see `.ssh/config` in this repo).**
 
 Add the ssh key into the agent:
 
