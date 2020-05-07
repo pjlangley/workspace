@@ -1,6 +1,7 @@
 # Workspace
 
-My best attempt at portable workspace settings when working on macOS devices.
+This is a kind of generic workspace snapshot for my macOS setup, mainly for personal reference.
+The repo root represents the home (`~/`) directory of my computer.
 
 Whenever practical, my preference is to work from the command line. These workspace settings
 will reflect that goal of mine. I like to explore productivity benefits and pleasant working
@@ -12,7 +13,7 @@ In order to copy / paste these settings, the following dependencies are required
 
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/)
   - Follow their installation instructions.
-  - This obviously assumes zsh usage; my current preference.
+  - This obviously assumes zsh shell usage; my current preference.
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
   - Pathogen provides a Vim plugin manager. Thereafter, install the following:
   - [vim-sensible](https://github.com/tpope/vim-sensible)
@@ -101,27 +102,3 @@ Now you won't need to enter your passphrase during every remote Git command you 
 
 Finish by adding your public ssh key to your account; GH has a [guide](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) on this.
 
-## Samples
-
-The Vim JavaScript plugin applying some pleasant highlighting to a JS file:
-
-![vim-javascript](./screenshots/vim-javascript.png)
-
-Example of `tree` output:
-
-```
-$ tree
-.
-├── README.md
-└── screenshots
-    ├── ls-alias.png
-    └── vim-javascript.png
-
-1 directory, 4 files
-```
-
-Tmux GitBar in action:
-
-![tmux-gitbar](./screenshots/tmux-gitbar.png)
-
----
