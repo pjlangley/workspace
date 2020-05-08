@@ -76,3 +76,19 @@ Provides a readable directory output - really useful for documentation etc.
 
 Install from [brew](https://formulae.brew.sh/formula/tree).
 
+## `jq`
+
+Parse JSON on the command line.
+Install from [brew](https://formulae.brew.sh/formula/jq).
+
+## Bitwarden
+
+My password manager of choice. I've installed the CLI for bitwarden
+from [brew](https://formulae.brew.sh/formula/bitwarden-cli).
+
+Combined with `jq`, you can list out matching items and copy/paste passwords:
+
+```
+$ bw list items --search github | jq
+```
+
