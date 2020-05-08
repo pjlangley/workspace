@@ -92,3 +92,9 @@ Combined with `jq`, you can list out matching items and copy/paste passwords:
 $ bw list items --search github | jq
 ```
 
+## Image optimisation
+
+Install the CLI for imageoptim from [brew](https://formulae.brew.sh/formula/imageoptim-cli).
+See the GH [repo](https://github.com/JamieMason/ImageOptim-CLI) for usage instructions, or
+`imageoptim --help`.
+
