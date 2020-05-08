@@ -65,6 +65,11 @@ Now you won't need to enter your passphrase during every remote Git command you 
 
 Finish by adding your public ssh key to your account; GH has a [guide](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) on this.
 
+## `node`
+
+Node.js is installed via nvm, using the [`zsh-nvm`](https://github.com/lukechilds/zsh-nvm)
+Oh My Zsh plugin; see `.zshrc`.
+
 ## `tree`
 
 Provides a readable directory output - really useful for documentation etc.
