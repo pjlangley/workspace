@@ -29,8 +29,8 @@ In order to copy / paste these settings, the following dependencies are required
 Set a global Git user name and email address as standard:
 
 ```
-git config user.email pjlangley@users.noreply.github.com
-git config user.name pjlangley
+git config --global user.email pjlangley@users.noreply.github.com
+git config --global user.name pjlangley
 ```
 
 _Override on a project by project basis as necessary._
