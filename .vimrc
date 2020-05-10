@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
+Plug 'leafgarland/typescript-vim'
 call plug#end()
 set number
 set spell

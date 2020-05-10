@@ -17,7 +17,7 @@ In order to copy / paste these settings, the following dependencies are required
 - [Vim Plug](https://github.com/junegunn/vim-plug)
   - Follow their installation instructions.
   - See `.vim/autoload/.gitkeep` for anything autoloaded; just this plugin manager for now.
-  - See `.vim/plugged/.gitkeep` for installed plugins.
+  - See `.vimrc` for installed plugins.
   - I use [Vim Awesome](https://vimawesome.com/) to browse Vim plugins.
 - [Homebrew](https://brew.sh/)
 - [tmux](https://github.com/tmux/tmux)
