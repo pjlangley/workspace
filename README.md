@@ -81,6 +81,21 @@ Install from [brew](https://formulae.brew.sh/formula/tree).
 Parse JSON on the command line.
 Install from [brew](https://formulae.brew.sh/formula/jq).
 
+## `watchman`
+
+Watchman is a tool by Facebook for watching changes in the filesystem. It is highly recommended
+for better performance with React Native development.
+
+Install from [brew](https://formulae.brew.sh/formula/watchman).
+
+## CocoaPods
+
+For React Native development:
+
+```
+$ sudo gem install cocoapods
+```
+
 ## Bitwarden
 
 My password manager of choice. I've installed the CLI for bitwarden
