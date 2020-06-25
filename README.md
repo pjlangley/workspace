@@ -96,6 +96,22 @@ For React Native development:
 $ sudo gem install cocoapods
 ```
 
+## Android Studio
+
+For React Native development:
+
+```
+$ brew cask install android-studio
+```
+
+## JDK
+
+Primarily for React Native development:
+
+```
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+```
+
 ## Bitwarden
 
 My password manager of choice. I've installed the CLI for bitwarden
